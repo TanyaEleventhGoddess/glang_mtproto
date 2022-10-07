@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"os"
 
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/gen"
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/cmd/tlgen/gen"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/cmd/tlgen/tlparser"
 )
 
 const helpMsg = `tlgen
@@ -21,7 +21,7 @@ are amazing too, but lesser 😏
 const license = `Copyright (c) 2020-2021 KHS Films
 
 This file is a part of mtproto package.
-See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
 `
 
 func main() {

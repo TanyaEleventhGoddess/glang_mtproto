@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/xelaj/mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
 )
 
 type abridged struct {

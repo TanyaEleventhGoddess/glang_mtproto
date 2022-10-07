@@ -1,9 +1,9 @@
 # MTProto
 
-[![godoc reference](https://pkg.go.dev/badge/github.com/xelaj/mtproto?status.svg)](https://pkg.go.dev/github.com/xelaj/mtproto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/xelaj/mtproto)](https://goreportcard.com/report/github.com/xelaj/mtproto)
+[![godoc reference](https://pkg.go.dev/badge/github.com/TanyaEleventhGoddess/go_mtproto?status.svg)](https://pkg.go.dev/github.com/TanyaEleventhGoddess/go_mtproto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/TanyaEleventhGoddess/go_mtproto)](https://goreportcard.com/report/github.com/TanyaEleventhGoddess/go_mtproto)
 [![codecov](https://codecov.io/gh/xelaj/mtproto/branch/master/graph/badge.svg)](https://codecov.io/gh/xelaj/mtproto)
-[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/xelaj/mtproto/blob/main/README.md)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/README.md)
 [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://bit.ly/2xlsVsQ)
 ![version v1.0.0](https://img.shields.io/badge/version-v1.0.0-success)
 ![unstable](https://img.shields.io/badge/stability-stable-success)
@@ -18,7 +18,7 @@ gitlab pipelines
 ![FINALLY!](/docs/assets/finally.jpg) Полностью нативная имплементация MTProto на Golang!
 
 
-[english](https://github.com/xelaj/mtproto/blob/main/README.md) **русский** [简体中文](https://github.com/xelaj/mtproto/blob/main/docs/zh_CN/README.md)
+[english](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/README.md) **русский** [简体中文](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/docs/zh_CN/README.md)
 
 <p align="center">
 <img src="https://i.ibb.co/yYsPxhW/Muffin-Man-Ag-ADRAADO2-Ak-FA.gif"/>
@@ -107,9 +107,9 @@ func main() {
 
 Вам не стоит задумываться о реализации шифрования, обмена ключами, сохранении и восстановлении сессии, все уже сделано за вас.
 
-**Примеры кода [здесь](https://github.com/xelaj/mtproto/blob/main/examples)**
+**Примеры кода [здесь](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/examples)**
 
-**Полная документация [здесь](https://pkg.go.dev/github.com/xelaj/mtproto)**
+**Полная документация [здесь](https://pkg.go.dev/github.com/TanyaEleventhGoddess/go_mtproto)**
 
 ## Getting started
 
@@ -118,13 +118,7 @@ func main() {
 Все как обычно, вам необходимо загрузить пакет с помощью `go get`:
 
 ``` bash
-go get github.com/xelaj/mtproto
-```
-
-Далее по желанию вы можете заново сгенерировать исходники структур методов и функций, для этого используйте команду `go generate`
-
-``` bash
-go generate github.com/xelaj/mtproto
+go get github.com/TanyaEleventhGoddess/go_mtproto
 ```
 
 Все! Больше ничего и не надо!
@@ -151,7 +145,7 @@ resp, err := client.InvokeWithLayer(apiVersion, &telegram.InitConnectionParams{
 
 ### Как произвести авторизацию по телефону?
 
-**Пример [здесь](https://github.com/xelaj/mtproto/blob/main/examples/auth)**
+**Пример [здесь](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/examples/auth)**
 
 ```go
 func AuthByPhone() {
@@ -180,7 +174,7 @@ func AuthByPhone() {
 
 ### Telegram Deeplinks
 
-Нужно работать с этими стрёмными `tg://` ссылками? Загляните в [пакет `deeplinks`](https://github.com/xelaj/mtproto/blob/main/telegram/deeplinks), вот самый простейший пример:
+Нужно работать с этими стрёмными `tg://` ссылками? Загляните в [пакет `deeplinks`](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/telegram/deeplinks), вот самый простейший пример:
 
 ``` go
 package main
@@ -188,7 +182,7 @@ package main
 import (
     "fmt"
 
-    "github.com/xelaj/mtproto/telegram/deeplinks"
+    "github.com/TanyaEleventhGoddess/go_mtproto/telegram/deeplinks"
 )
 
 func main() {
@@ -216,13 +210,13 @@ func main() {
 
 ## Contributing
 
-Please read [contributing guide](https://github.com/xelaj/mtproto/blob/main/docs/ru_RU/CONTRIBUTING.md) if you want to help. And the help is very necessary!
+Please read [contributing guide](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/docs/ru_RU/CONTRIBUTING.md) if you want to help. And the help is very necessary!
 
-**Don't want code?** Read [this](https://github.com/xelaj/mtproto/blob/main/.github/SUPPORT.md) page! We love nocoders!
+**Don't want code?** Read [this](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/.github/SUPPORT.md) page! We love nocoders!
 
 ## Критические уязвимости?
 
-Ага, мы стараемся подходить к ним серьезно. Пожалуйста, не создавайте ищью, описывающие ошибку безопасности, это может быть ОЧЕНЬ небезопасно! Вместо этого рекомендуем глянуть на [эту страничку](https://github.com/xelaj/mtproto/blob/main/.github/SECURITY.md) и следовать инструкции по уведомлению.
+Ага, мы стараемся подходить к ним серьезно. Пожалуйста, не создавайте ищью, описывающие ошибку безопасности, это может быть ОЧЕНЬ небезопасно! Вместо этого рекомендуем глянуть на [эту страничку](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/.github/SECURITY.md) и следовать инструкции по уведомлению.
 
 ## TODO
 
@@ -254,7 +248,7 @@ Please read [contributing guide](https://github.com/xelaj/mtproto/blob/main/docs
 
 <b style="color:red">WARNING!</b> This project is only maintained by Xelaj inc., however copyright of this source code **IS NOT** owned by Xelaj inc. at all. If you want to connect with code owners, write mail to <a href="mailto:up@khsfilms.ru">this email</a>. For all other questions like any issues, PRs, questions, etc. Use GitHub issues, or find email on official website.
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/xelaj/mtproto/blob/main/docs/ru_RU/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/docs/ru_RU/LICENSE.md) file for details
 
 <!--
 

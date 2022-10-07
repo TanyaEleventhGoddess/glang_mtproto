@@ -1,4 +1,4 @@
-module github.com/xelaj/mtproto
+module github.com/TanyaEleventhGoddess/go_mtproto
 
 go 1.13
 

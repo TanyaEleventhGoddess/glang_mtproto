@@ -11,10 +11,10 @@ import (
 	"github.com/k0kubun/pp"
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
-	"github.com/xelaj/mtproto"
-	"github.com/xelaj/mtproto/telegram"
+	"github.com/TanyaEleventhGoddess/go_mtproto"
+	"github.com/TanyaEleventhGoddess/go_mtproto/telegram"
 
-	utils "github.com/xelaj/mtproto/examples/example_utils"
+	utils "github.com/TanyaEleventhGoddess/go_mtproto/examples/example_utils"
 )
 
 func main() {

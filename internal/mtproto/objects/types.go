@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
 
 package objects
 
@@ -13,8 +13,8 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/mtproto/messages"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/mtproto/messages"
 )
 
 // TYPES

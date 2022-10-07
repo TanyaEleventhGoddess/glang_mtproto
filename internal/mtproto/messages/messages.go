@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
 
 package messages
 
@@ -16,9 +16,9 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
 
-	ige "github.com/xelaj/mtproto/internal/aes_ige"
-	"github.com/xelaj/mtproto/internal/encoding/tl"
-	"github.com/xelaj/mtproto/internal/utils"
+	ige "github.com/TanyaEleventhGoddess/go_mtproto/internal/aes_ige"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/utils"
 )
 
 // Common это сообщение (зашифрованое либо открытое) которыми общаются между собой клиент и сервер

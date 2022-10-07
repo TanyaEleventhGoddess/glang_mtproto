@@ -7,7 +7,7 @@ import (
 	"github.com/dave/jennifer/jen"
 	"github.com/k0kubun/pp"
 	
-	"github.com/xelaj/mtproto/internal/cmd/tlgen/tlparser"
+	"github.com/TanyaEleventhGoddess/go_mtproto/internal/cmd/tlgen/tlparser"
 )
 
 func (g *Generator) generateSpecificStructs(f *jen.File) {

@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/xelaj/mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
 
 // this is ALL helpful unoficial telegram api methods.
 
@@ -20,7 +20,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/errs"
 
-	"github.com/xelaj/mtproto/telegram/internal/calls"
+	"github.com/TanyaEleventhGoddess/go_mtproto/telegram/internal/calls"
 )
 
 func (c *Client) GetChannelInfoByInviteLink(hashOrLink string) (*ChannelFull, error) {

@@ -1,7 +1,7 @@
 <!--
 Before creating PR, please, read Contributing guideline to be sure that your contribution is amazing!
 
-Link to CG: github.com/xelaj/mtproto/.github/CONTRIBUTING.md
+Link to CG: github.com/TanyaEleventhGoddess/go_mtproto/.github/CONTRIBUTING.md
 -->
 
 ## Describe your feature
