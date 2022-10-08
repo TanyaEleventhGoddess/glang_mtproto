@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 //Пакет srp реализует Secure Random Password protocol, который
 //телеграм использует для реализации 2FA.

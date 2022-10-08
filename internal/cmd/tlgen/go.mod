@@ -1,4 +1,4 @@
-module github.com/TanyaEleventhGoddess/go_mtproto/internal/cmd/tlgen
+module github.com/TanyaEleventhGoddess/glang_mtproto/internal/cmd/tlgen
 
 go 1.15
 

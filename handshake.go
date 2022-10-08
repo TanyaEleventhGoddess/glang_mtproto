@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 package mtproto
 
@@ -15,11 +15,11 @@ import (
 	"github.com/pkg/errors"
 	"github.com/xelaj/go-dry"
 
-	ige "github.com/TanyaEleventhGoddess/go_mtproto/internal/aes_ige"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/keys"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/math"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/mtproto/objects"
+	ige "github.com/TanyaEleventhGoddess/glang_mtproto/internal/aes_ige"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/keys"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/math"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/mtproto/objects"
 )
 
 // https://tlgrm.ru/docs/mtproto/auth_key

@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 package messages_test
 
@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/xelaj/go-dry"
 
-	. "github.com/TanyaEleventhGoddess/go_mtproto/internal/mtproto/messages"
+	. "github.com/TanyaEleventhGoddess/glang_mtproto/internal/mtproto/messages"
 )
 
 type DummyClient struct {

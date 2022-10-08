@@ -1,4 +1,4 @@
-module github.com/TanyaEleventhGoddess/go_mtproto
+module github.com/TanyaEleventhGoddess/glang_mtproto
 
 go 1.19
 

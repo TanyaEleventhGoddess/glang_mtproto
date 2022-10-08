@@ -49,7 +49,7 @@ linters-settings:
       const:
         OWNER_COMPANY: KHS Films
         MAINTAINER_COMPANY: Xelaj Software
-        LICENSE_URL: https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE
+        LICENSE_URL: https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE
     template-path: docs/.license_header.txt
 
 linters:

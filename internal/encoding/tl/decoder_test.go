@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 package tl_test
 
@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/xelaj/go-dry"
 
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
 )
 
 var (
@@ -197,7 +197,7 @@ func TestDecodeUnknown(t *testing.T) {
 			expected: &tl.PseudoFalse{},
 		},
 		{
-			name: "issue_59", // https://github.com/TanyaEleventhGoddess/go_mtproto/issues/59
+			name: "issue_59", // https://github.com/TanyaEleventhGoddess/glang_mtproto/issues/59
 			//           crc     id              flag    question string
 			data: Hexed("6181e186100000006115f84a0000000015d094d0bed181d182d0b0d182d0bed1" +
 				//               slice   len3    crc     long message

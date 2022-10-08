@@ -6,9 +6,9 @@ import (
 
 	"github.com/k0kubun/pp"
 	"github.com/xelaj/go-dry"
-	"github.com/TanyaEleventhGoddess/go_mtproto/telegram"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/telegram"
 
-	utils "github.com/TanyaEleventhGoddess/go_mtproto/examples/example_utils"
+	utils "github.com/TanyaEleventhGoddess/glang_mtproto/examples/example_utils"
 )
 
 func main() {

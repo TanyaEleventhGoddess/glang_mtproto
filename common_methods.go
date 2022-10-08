@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 package mtproto
 
@@ -10,8 +10,8 @@ package mtproto
 // are in internal/mtproto/objects). The idea is taken from github.com/xelaj/vk
 
 import (
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/mtproto/objects"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/mtproto/objects"
 )
 
 func (m *MTProto) reqPQ(nonce *tl.Int128) (*objects.ResPQ, error) {

@@ -1,4 +1,4 @@
-module github.com/TanyaEleventhGoddess/go_mtproto/telegram/deeplinks
+module github.com/TanyaEleventhGoddess/glang_mtproto/telegram/deeplinks
 
 go 1.13
 

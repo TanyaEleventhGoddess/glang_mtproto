@@ -8,9 +8,9 @@ import (
 	"reflect"
 
 	"github.com/pkg/errors"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/mode"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/mtproto/messages"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/mode"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/mtproto/messages"
 )
 
 type Transport interface {

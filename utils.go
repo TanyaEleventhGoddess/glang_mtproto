@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 package mtproto
 
@@ -9,8 +9,8 @@ import (
 	"context"
 	"io"
 
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/mtproto/objects"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/mtproto/objects"
 )
 
 type any = interface{}

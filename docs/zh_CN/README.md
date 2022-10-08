@@ -1,9 +1,9 @@
 # MTProto
 
-[![godoc reference](https://pkg.go.dev/badge/github.com/TanyaEleventhGoddess/go_mtproto?status.svg)](https://pkg.go.dev/github.com/TanyaEleventhGoddess/go_mtproto)
-[![Go Report Card](https://goreportcard.com/badge/github.com/TanyaEleventhGoddess/go_mtproto)](https://goreportcard.com/report/github.com/TanyaEleventhGoddess/go_mtproto)
+[![godoc reference](https://pkg.go.dev/badge/github.com/TanyaEleventhGoddess/glang_mtproto?status.svg)](https://pkg.go.dev/github.com/TanyaEleventhGoddess/glang_mtproto)
+[![Go Report Card](https://goreportcard.com/badge/github.com/TanyaEleventhGoddess/glang_mtproto)](https://goreportcard.com/report/github.com/TanyaEleventhGoddess/glang_mtproto)
 [![codecov](https://codecov.io/gh/xelaj/mtproto/branch/master/graph/badge.svg)](https://codecov.io/gh/xelaj/mtproto)
-[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/README.md)
+[![license MIT](https://img.shields.io/badge/license-MIT-green)](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/README.md)
 [![chat telegram](https://img.shields.io/badge/chat-telegram-0088cc)](https://bit.ly/2xlsVsQ)
 ![version v1.0.0](https://img.shields.io/badge/version-v1.0.0-success)
 ![unstable](https://img.shields.io/badge/stability-stable-success)
@@ -15,7 +15,7 @@ gitlab pipelines
 
 ![FINALLY!](/docs/assets/finally.jpg) MTProto 协议的原生 Go 实现！
 
-[english](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/README.md) [русский](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/docs/ru_RU/README.md) **简体中文**
+[english](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/README.md) [русский](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/docs/ru_RU/README.md) **简体中文**
 
 <p align="center">
 <img src="https://i.ibb.co/yYsPxhW/Muffin-Man-Ag-ADRAADO2-Ak-FA.gif"/>
@@ -99,9 +99,9 @@ func main() {
 
 你无需考虑加密、密钥交换、保存和还原会话以及其他常规事务，我们全都替你处理好了。
 
-**示例代码在[这里](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/examples)**
+**示例代码在[这里](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/examples)**
 
-**完整的文档在[这里](https://pkg.go.dev/github.com/TanyaEleventhGoddess/go_mtproto)**
+**完整的文档在[这里](https://pkg.go.dev/github.com/TanyaEleventhGoddess/glang_mtproto)**
 
 ## 开始使用
 
@@ -110,7 +110,7 @@ func main() {
 安装方式很简单，简单地执行 `go get`：
 
 ``` bash
-go get github.com/TanyaEleventhGoddess/go_mtproto
+go get github.com/TanyaEleventhGoddess/glang_mtproto
 ```
 
 就这么简单！你不需要做其他的任何事情了！
@@ -137,7 +137,7 @@ resp, err := client.InvokeWithLayer(apiVersion, &telegram.InitConnectionParams{
 
 ### 如何使用电话验证？
 
-**示例代码在[这里](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/examples/auth)**
+**示例代码在[这里](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/examples/auth)**
 
 ```go
 func AuthByPhone() {
@@ -165,7 +165,7 @@ func AuthByPhone() {
 
 ### Telegram Deeplinks
 
-想处理那些奇葩的 `tg://` 链接吗？请查看 [`deeplinks`](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/telegram/deeplinks) 包。如下是简单的示例：
+想处理那些奇葩的 `tg://` 链接吗？请查看 [`deeplinks`](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/telegram/deeplinks) 包。如下是简单的示例：
 
 ``` go
 package main
@@ -173,7 +173,7 @@ package main
 import (
     "fmt"
 
-    "github.com/TanyaEleventhGoddess/go_mtproto/telegram/deeplinks"
+    "github.com/TanyaEleventhGoddess/glang_mtproto/telegram/deeplinks"
 )
 
 func main() {
@@ -200,13 +200,13 @@ func main() {
 
 ## 贡献
 
-如果你愿意提供帮助，请阅读我们的[贡献指南](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/.github/CONTRIBUTING.md)。
+如果你愿意提供帮助，请阅读我们的[贡献指南](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/.github/CONTRIBUTING.md)。
 
-不想写代码？请阅读[这个](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/.github/SUPPORT.md)页面，我们同样欢迎 nocoders！
+不想写代码？请阅读[这个](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/.github/SUPPORT.md)页面，我们同样欢迎 nocoders！
 
 ## 安全漏洞？
 
-请千万不要创建 issue 来反馈安全漏洞，因为这样会影响到很多人。请通过[阅读](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/.github/SECURITY.md)这个并遵循里面提到的步骤来通知我们。
+请千万不要创建 issue 来反馈安全漏洞，因为这样会影响到很多人。请通过[阅读](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/.github/SECURITY.md)这个并遵循里面提到的步骤来通知我们。
 
 ## TODO
 
@@ -238,7 +238,7 @@ func main() {
 
 **WARNING!** This project is only maintained by Xelaj inc., however copyright of this source code **IS NOT** owned by Xelaj inc. at all. If you want to connect with code owners, write mail to <a href="mailto:up@khsfilms.ru">this email</a>. For all other questions like any issues, PRs, questions, etc. Use GitHub issues, or find email on official website.
 
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/TanyaEleventhGoddess/go_mtproto/blob/main/docs/en_US/LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/main/docs/en_US/LICENSE.md) file for details
 
 <!--
 

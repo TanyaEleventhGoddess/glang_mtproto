@@ -1,7 +1,7 @@
 // Copyright (c) 2020-2021 KHS Films
 //
 // This file is a part of mtproto package.
-// See https://github.com/TanyaEleventhGoddess/go_mtproto/blob/master/LICENSE for details
+// See https://github.com/TanyaEleventhGoddess/glang_mtproto/blob/master/LICENSE for details
 
 package telegram
 
@@ -11,7 +11,7 @@ package telegram
 import (
 	"github.com/pkg/errors"
 
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
 )
 
 //invokeAfterMsg#cb9f372d {X:Type} msg_id:long query:!X = X;

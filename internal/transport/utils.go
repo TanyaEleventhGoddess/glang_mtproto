@@ -2,7 +2,7 @@ package transport
 
 import (
 	"fmt"
-	"github.com/TanyaEleventhGoddess/go_mtproto/internal/encoding/tl"
+	"github.com/TanyaEleventhGoddess/glang_mtproto/internal/encoding/tl"
 )
 
 type ErrNotMultiple struct {
